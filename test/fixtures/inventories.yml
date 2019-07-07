@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  survivor: one
+  water: 
+  food: 
+  medication: 
+  ammunition: 1
+
+two:
+  survivor: two
+  water: 
+  food: 
+  medication: 
+  ammunition: 1
