@@ -1,3 +1,7 @@
+## ZSSN (Zombie Survival Social Network)
+
+[https://zombie-network.herokuapp.com](https://zombie-network.herokuapp.com/map)
+
 ## Installation
 
 **Dependencies**: Before installation make sure you have PostgreSQL (9.5) and Ruby (2.4.5) installed. 
@@ -19,6 +23,7 @@
 	~~~ sh
 	rails s
 	~~~
+
 	
 ##API Documentation
 
