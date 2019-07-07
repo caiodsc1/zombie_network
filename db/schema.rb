@@ -46,7 +46,6 @@ ActiveRecord::Schema.define(version: 2019_07_06_211932) do
     t.datetime "updated_at", null: false
     t.decimal "latitude", precision: 10, scale: 6, default: "0.0", null: false
     t.decimal "longitude", precision: 10, scale: 6, default: "0.0", null: false
-    t.integer "cached_votes_up", default: 0
     t.integer "times_reported", default: 0
   end
 

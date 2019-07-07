@@ -25,7 +25,7 @@
 	~~~
 
 	
-##API Documentation
+## API Documentation
 
 ### Survivors
 
