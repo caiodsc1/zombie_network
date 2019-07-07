@@ -42,8 +42,8 @@ POST /survivors
                 "food": 10
                 ...
             }
-            latitude: -3.123456
-            longitude: -60.123456
+            latitude: -3.000001
+            longitude: -60.000001
         }
         
 
@@ -52,8 +52,8 @@ POST /survivors
 PATCH /survivors/:id
 
         {
-            "latitude": -3.123456,
-            "longitude": -60.123456
+            "latitude": -3.000001,
+            "longitude": -60.000001
         }
 
             
