@@ -38,12 +38,12 @@ POST /survivors
             "age": "23", 
             "gender": "male", 
             "inventory_attributes": {
-                "water: 10    
+                "water": 10,    
                 "food": 10
                 ...
-            }
-            latitude: -3.000001
-            longitude: -60.000001
+            },
+            "latitude": -3.000001,
+            "longitude": -60.000001
         }
         
 
@@ -80,12 +80,12 @@ POST /trades
             "survivor_one": 17,
             "survivor_two": 35,
             "resources_one": {
-                water: 10,
-                food: 5
+                "water": 10,
+                "food": 5
             },
             "resources_two": {
-                medication: 20,
-                ammunition: 15
+                "medication": 20,
+                "ammunition": 15
             }
         }
 
