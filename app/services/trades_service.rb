@@ -23,7 +23,7 @@ class TradesService
       trade_resources and return true
     end
   rescue Exception => error
-    @response = { status: :error, message: error.message } and return false
+    @response = { status: :error, message: error.message }.as_json and return false
   end
 
   def trade_resources
