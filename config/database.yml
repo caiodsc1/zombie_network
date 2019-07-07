@@ -12,8 +12,6 @@
 #
 # Configure Using Gemfile
 # gem 'pg'
-# username: postgres
-# password: password
 #
 default: &default
   adapter: postgresql
