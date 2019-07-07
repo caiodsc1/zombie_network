@@ -2,7 +2,7 @@ class TradesController < ApplicationController
   before_action :set_survivors_and_resources
 
   def create
-    trade = TradesService.new(@survivor_one, @survivor_two, @resources_one, @resources_two)
+    trade = TradesService.new(@survivor_one, @survivor_two, @resources_one.to_h, @resources_two.to_h)
 
     if trade.perform
       render json: trade.response, status: :ok
