@@ -23,7 +23,7 @@ class Survivor < ApplicationRecord
   }
 
   scope :not_infected, lambda {
-    where('times_reported <= ?', MAX_INFECTION)
+    where('times_reported < ?', MAX_INFECTION)
   }
 
   def is_infected?
