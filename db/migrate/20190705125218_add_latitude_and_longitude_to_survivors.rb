@@ -5,5 +5,5 @@ class AddLatitudeAndLongitudeToSurvivors < ActiveRecord::Migration[5.2]
   end
 
   # TODO
-  # add_index :users, [:latitude, :longitude]
+  # add_index :survivors, [:latitude, :longitude]
 end
