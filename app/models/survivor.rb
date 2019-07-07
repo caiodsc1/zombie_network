@@ -50,6 +50,6 @@ class Survivor < ApplicationRecord
   end
 
   def with_inventory
-    to_json(include: { inventory: { only: [:water, :food, :medication, :ammunition] } }).as_json
+    JSON.parse(self.to_json(include: { inventory: { only: [:water, :food, :medication, :ammunition] } }))
   end
 end

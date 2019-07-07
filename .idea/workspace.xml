@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41ee0e60-ee77-4445-b0be-58b40e964cb6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/controllers/trades_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/trades_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/survivor.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/survivor.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -20,20 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20190705125218_add_latitude_and_longitude_to_survivors.rb">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/survivor.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Procfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="224">
+              <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -47,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/trades_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="17" column="77" lean-forward="true" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
+            <state relative-caret-position="51">
+              <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -79,6 +70,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="349">
               <caret line="29" column="35" lean-forward="true" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/services/trades_service.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="42" column="77" lean-forward="true" selection-start-line="42" selection-start-column="77" selection-end-line="42" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -164,7 +164,6 @@
         <option value="$PROJECT_DIR$/db/migrate/20190705125119_add_inventory_to_survivors.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20190706173056_create_inventories.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20190706173547_create_inventories.rb" />
-        <option value="$PROJECT_DIR$/app/services/trades_service.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20190706194554_add_cached_points_to_inventory.rb" />
         <option value="$PROJECT_DIR$/app/models/inventory.rb" />
         <option value="$PROJECT_DIR$/app/controllers/reports_controller.rb" />
@@ -174,7 +173,6 @@
         <option value="$PROJECT_DIR$/db/migrate/20190706194554_add_cached_points_to_inventories.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20190706214256_add_index_to_reports.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20190706211932_add_reported_count_to_survivors.rb" />
-        <option value="$PROJECT_DIR$/app/models/survivor.rb" />
         <option value="$PROJECT_DIR$/public/map.html" />
         <option value="$PROJECT_DIR$/app/controllers/maps_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/survivors_controller.rb" />
@@ -206,10 +204,12 @@
         <option value="$PROJECT_DIR$/app/controllers/details_controller.rb" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app/controllers/trades_controller.rb" />
+        <option value="$PROJECT_DIR$/app/services/trades_service.rb" />
+        <option value="$PROJECT_DIR$/app/models/survivor.rb" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="628" />
     <option name="y" value="75" />
     <option name="width" value="1382" />
@@ -429,15 +429,15 @@
       <updated>1562273441017</updated>
       <workItem from="1562273443743" duration="20174000" />
       <workItem from="1562330956827" duration="74550000" />
-      <workItem from="1562500831688" duration="30450000" />
+      <workItem from="1562500831688" duration="30780000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125174000" />
+    <option name="totallyTimeSpent" value="125504000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27155825" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -452,7 +452,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49924356" visible="true" weight="0.6661211" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49924356" visible="true" weight="0.36988544" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.12765957" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3289689" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.22749591" />
@@ -633,20 +633,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/survivor.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/services/trades_service.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-643">
-          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/maps/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -773,8 +759,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/trades_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="17" column="77" lean-forward="true" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
+        <state relative-caret-position="51">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/services/trades_service.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="42" column="77" lean-forward="true" selection-start-line="42" selection-start-column="77" selection-end-line="42" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/survivor.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
         </state>
       </provider>
     </entry>
