@@ -30,12 +30,14 @@ gem 'bootsnap', '~> 1.4.1', require: false
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
 
+# A library for generating fake data such as names, addresses, and phone numbers.
+gem 'faker'
+
 group :development, :test do
   gem 'json'
   # RSpec for Rails-3+
   gem 'rspec-rails', '~> 3.8'
-  # A library for generating fake data such as names, addresses, and phone numbers.
-  gem 'faker'
+
   # Factory Bot Rails
   gem 'factory_bot_rails'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
