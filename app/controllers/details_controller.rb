@@ -27,7 +27,7 @@ class DetailsController < ApplicationController
     survivors = Survivor.infected.includes(:inventory)
     points_lost = survivors.sum(:cached_points)
 
-    render json: { status: :success, data: { points_lost: points_lost } }, status: :ok
+    render json: { status: :success, data: points_lost }, status: :ok
   end
 
   private
